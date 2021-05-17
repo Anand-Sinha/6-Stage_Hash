@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="/img/lock.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>6-Stage Hash</title>
+    <link rel="icon" href="/img/lock.png">
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">
+
+      <form class="" action="/encrypt" method="post">
+        <table>
+          <tr>
+            <td> <strong> <span style="color:lightgreen;"><%= result %> </span> </strong></td>
+            <td style="max-width:350px; overflow-x: scroll;"> <p> <%= hash %> </p> </td>
+            <!-- <td><textarea name="seed_phrase" rows="1" cols="80" placeholder="" required><%= hash %></textarea><br></td> -->
+          </tr>
+          <!-- <tr>
+            <td><span>Enter First Name </span></td>
+            <td><input type="text" name="first_name" value="" placeholder="John" required><br></td>
+          </tr>
+          <tr>
+            <td><span>Enter Last Name </span></td>
+            <td><input type="text" name="last_name" value="" placeholder="Smith" required><br></td>
+          </tr>
+          <tr>
+            <td><span>Password 1 </span></td>
+            <td><input type="password" name="password_1" value="" placeholder="Password1" required><br></td>
+          </tr>
+          <tr>
+            <td><span>Password 2 </span></td>
+            <td><input type="password" name="password_2" value="" placeholder="Password2" required><br></td>
+          </tr>
+          <tr>
+            <td><span>Enter Email </span></td>
+            <td><input type="email" name="email" value="" placeholder="johnsmith@email.com" required><br></td>
+          </tr>
+          <tr>
+            <td><span>Enter Mobile Number </span></td>
+            <td><input type="tel" name="mobile" value="" placeholder="9876543210" required><br></td>
+          </tr> -->
+        </table>
+        <div class="submit">
+          <a href="/"><button class="subBut" type="button" name="button">Encrypt</button></a>
+          <a href="/decrypt"><button class="subBut" type="button" name="button">Decrypt</button></a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

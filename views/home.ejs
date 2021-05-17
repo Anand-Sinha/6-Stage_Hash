@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>6-Stage Hash</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  <link rel="icon" href="/img/lock.png">
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">
+      <h1><i style="" class="fas fa-lock"></i> 6-Stage Hash</h1>
+
+      <form class="" action="/encrypt" method="post">
+        <table>
+          <tr>
+            <td><span>Enter Seed Phrase (Separated by Space) </span></td>
+            <td><textarea name="seed_phrase" rows="1" cols="80" placeholder="ace holding lock sea ground sky place park call wallet static hold" required></textarea><br></td>
+          </tr>
+          <tr>
+            <td><span>Enter First Name </span></td>
+            <td><input type="text" name="first_name" value="" placeholder="John" required><br></td>
+          </tr>
+          <tr>
+            <td><span>Enter Last Name </span></td>
+            <td><input type="text" name="last_name" value="" placeholder="Smith" required><br></td>
+          </tr>
+          <tr>
+            <td><span>Password 1 </span></td>
+            <td><input type="password" name="password_1" value="" placeholder="Password1" required><br></td>
+          </tr>
+          <tr>
+            <td><span>Password 2 </span></td>
+            <td><input type="password" name="password_2" value="" placeholder="Password2" required><br></td>
+          </tr>
+          <tr>
+            <td><span>Enter Email </span></td>
+            <td><input type="email" name="email" value="" placeholder="johnsmith@email.com" required><br></td>
+          </tr>
+          <tr>
+            <td><span>Enter Mobile Number </span></td>
+            <td><input type="tel" name="mobile" value="" placeholder="9876543210" required><br></td>
+          </tr>
+        </table>
+        <div class="submit">
+          <input class="subBut" type="submit" name="" value="Submit">
+          <a href="/decrypt"><button class="subBut" type="button" name="button">Decrypt</button></a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
